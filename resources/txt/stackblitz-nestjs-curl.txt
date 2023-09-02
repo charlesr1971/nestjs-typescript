@@ -1,0 +1,6 @@
+
+curl --location --request POST 'http://localhost:3200/user' --header 'Content-Type: application/json' --data '{"email":"Charles","name":"Charles","age":52,"country":"UK"}'
+
+
+curl --location --request GET 'http://localhost:3201/user' --header 'Content-Type: application/json'
+
